@@ -1,0 +1,8 @@
+Andrew Repp
+Unix - Project 3 - 2048 Game
+12/9/15
+
+For Project 3, I created a simple version of the popular app 2048. To run the program in the command line, simply type "python ./2048.py".  A menu will display on the terminal, and options can be selected using the displayed keys.  Once the game is running, pressing W, A, S, or D followed by the Enter key will shift the tiles on the board up, left, down, or right, respectively.  The game ends when the user runs out of moves or when the user creates a tile with the winning value on it.
+
+(Git repository: https://github.com/drewrepp/2048.git)
+Note about Git repository: I completely forgot about the requirement of keeping track of work using commits, so I ended up having to do what the specification says not to, namely creating one big commit at the end.  My apologies.
