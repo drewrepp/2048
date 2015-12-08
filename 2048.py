@@ -42,8 +42,8 @@ def addNum():
 def checkForEnd():
 	noMoves = True
 	if (boardFull() == True):
-		for row in range (0, boardSize):
-			for col in range (0, boardSize):
+		for row in range (0, boardSize - 1):
+			for col in range (0, boardSize - 1):
 				if (gameBoard[row][col] == gameBoard[row+1][col]):
 					noMoves = False
 				if (gameBoard[row][col] == gameBoard[row][col+1]):
